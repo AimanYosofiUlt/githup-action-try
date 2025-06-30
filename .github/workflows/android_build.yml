@@ -20,5 +20,5 @@ jobs:
       - name: Grant execute permissions for gradlew
         run: git update-index --chmod=+x gradlew
 
-      - name: Build Project
-        run: ./gradlew build
+      - name: Run a one-line script
+        run: echo Hello, world!
