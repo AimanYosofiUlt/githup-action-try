@@ -23,7 +23,7 @@ class MainActivity : ComponentActivity() {
             GithupActionsTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
-                        name = "Android",
+                        name = "AD",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
